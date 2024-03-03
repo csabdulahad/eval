@@ -1,0 +1,71 @@
+{
+    "favicon": "",
+    
+    "project_dir_as_include_path": true,
+    "use_global_func": true,
+    
+    "dev_API_benchmark": false,
+    "dev_API_delay": 0,
+    
+    "time_zone": "Europe/London",
+    "session_auto_start": false,
+    "session_msg_key": "msg",
+    
+    "global_php": [],
+    "common_js_files": [],
+    "common_css_files": [],
+
+    "mailer_host": "smtp.gmail.com",
+    "mailer_email": "rootdata21@gmail.com",
+    "mailer_pass": "wqwwebfhnijcmjqo",
+    "mailer_port": 587,
+    "mailer_name": "A2.Net",
+    "mailer_reply_to": "rootdata21@gmail.com",
+    
+    "doc_config": {
+        "ext": [
+            "txt",
+            "doc",
+            "pdf",
+            "docx",
+            "ppt"
+        ],
+        "size": 5,
+        "folder": "upload/doc"
+    },
+    
+    "img_config": {
+        "ext": [
+            "png",
+            "gif",
+            "jpg",
+            "jpeg"
+        ],
+        "size": 5,
+        "folder": "upload/img"
+    },
+    
+    "video_config": {
+        "ext": [
+            "mp4",
+            "wmv"
+        ],
+        "size": 5,
+        "folder": "upload/video"
+    },
+    
+    "audio_config": {
+        "ext": [
+            "mp3",
+            "wav"
+        ],
+        "size": 5,
+        "folder": "upload/audio"
+    },
+    
+    "jquery": "3.6.0",
+    "jst": "4.0.0",
+    "bootstrap": "5.1.3",
+    "jquery_ui": "1.13.0",
+    "highlight_js": "intellij-light"
+}

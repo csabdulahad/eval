@@ -1,0 +1,25 @@
+{
+    "name": "a2/eval",
+    "description": "A PHP app which allows to edit & run php to experiment things!",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "A2\\Eval\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdul ahad",
+            "email": "csabdulahad@gmail.com"
+        }
+    ],
+    "require": {
+        "rootdata21/hati": "^5.0",
+		"ext-posix": "*"
+	},
+    "config": {
+        "allow-plugins": {
+            "rootdata21/hati-installer": true
+        }
+    }
+}

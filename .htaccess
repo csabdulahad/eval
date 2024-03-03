@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /eval/
+
+	# if the request is for something in the api folder
+	RewriteCond %{REQUEST_URI} ^/eval/api/.*$
+	RewriteRule ^api/(.*)$ /eval/src/api/hati_api_handler.php?api=$1 [QSA,L]
+
+	# everything else redirect to src folder
+	RewriteCond %{REQUEST_URI} !^/eval/src/.*$
+	RewriteCond %{REQUEST_URI} !^/eval/api/.*$
+	RewriteRule ^(.*)$ /eval/src/$1 [L]
+</IfModule>
+
+##-----------------------------------------------------------------------------------------
+## 									!!! HATI LOADER!!!
+## Prepend hati as master dependency. For testing environment such as xampp path can be
+## Something like C:/xampp/htdocs/project/hati/init.php
+## As hati comes with composer, you only need to change 'project_dir' with actual directory.
+##-----------------------------------------------------------------------------------------
+php_value auto_prepend_file "C:/xampp/htdocs/eval/src/hati/init.php"
+
+
+##-----------------------------------------------------------------------------------------
+## 								!!! PROTECT HATI FOLDERS !!!
+## The hati folder hosts various configuration files. These files contains very sensitive
+## information. This rule is recommeneded to safe-guard the hati folder.
+##-----------------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule (^|/)hati(/|$) - [F]
+</IfModule>
+
+
+## Directory listing option; can be disabled.
+Options -Indexes

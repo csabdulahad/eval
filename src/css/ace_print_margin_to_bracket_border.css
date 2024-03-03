@@ -1,0 +1,180 @@
+.ace_indent-guide {
+    background: unset !important;
+    box-shadow: none !important;
+}
+
+.ace-ambiance .ace_indent-guide {
+    border-right: 1px solid #2D2D2D !important;
+}
+
+.ace-chaos .ace_indent-guide {
+    border-right: 1px solid #555 !important;
+}
+
+.ace-chrome .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-cloud9-day .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-cloud9-night .ace_indent-guide {
+    border-right: 1px solid #222 !important;
+}
+
+.ace-cloud9-night-low-color .ace_indent-guide {
+    border-right: 1px solid #222 !important;
+}
+
+.ace-clouds .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-clouds-midnight .ace_indent-guide {
+    border-right: 1px solid #232323 !important;
+}
+
+.ace-cobalt .ace_indent-guide {
+    border-right: 1px solid #555555 !important;
+}
+
+.ace-crimson-editor .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-dawn .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-dracula .ace_indent-guide {
+    border-right: 1px solid #44475a !important;
+}
+
+.ace-dreamweaver .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-eclipse .ace_indent-guide {
+    border-right: 1px solid #ebebeb !important;
+}
+
+.ace-github .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-gob .ace_indent-guide {
+    border-right: 1px solid #131313 !important;
+}
+
+.ace-gruvbox .ace_indent-guide {
+    border-right: 1px solid #3C3836 !important;
+}
+
+.ace-gruvbox-dark-hard .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-gruvbox-light-hard .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-idle-fingers .ace_indent-guide {
+    border-right: 1px solid #3b3b3b !important;
+}
+
+.ace-iplastic .ace_indent-guide {
+    border-right: 1px solid #bbbbbb !important;
+}
+
+.ace-katzenmilch .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-kr-theme .ace_indent-guide {
+    border-right: 1px solid #1c1917 !important;
+}
+
+.ace-kuroir .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-merbivore .ace_indent-guide {
+    border-right: 1px solid #555651 !important;
+}
+
+.ace-merbivore-soft .ace_indent-guide {
+    border-right: 1px solid #262424 !important;
+}
+
+.ace-mono-industrial .ace_indent-guide {
+    border-right: 1px solid #555651 !important;
+}
+
+.ace-monokai .ace_indent-guide {
+    border-right: 1px solid #555651 !important;
+}
+
+.ace-nord-dark .ace_indent-guide {
+    border-right: 1px solid #4c566a !important;
+}
+
+.ace-one-dark .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-pastel-on-dark .ace_indent-guide {
+    border-right: 1px solid #353030 !important;
+}
+
+.ace-solarized-dark .ace_indent-guide {
+    border-right: 1px solid #33555E !important;
+}
+
+.ace-solarized-light .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-sqlserver .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-terminal-theme .ace_indent-guide {
+    border-right: 1px solid #1a1a1a !important;
+}
+
+.ace-tm .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.ace-tomorrow .ace_indent-guide {
+    border-right: 1px solid #f6f6f6 !important;
+}
+
+.ace-tomorrow-night .ace_indent-guide {
+    border-right: 1px solid #25282c !important;
+}
+
+.ace-tomorrow-night-blue .ace_indent-guide {
+    border-right: 1px solid #00204b !important;
+}
+
+.ace-tomorrow-night-bright .ace_indent-guide {
+    border-right: 1px solid #1a1a1a !important;
+}
+
+.ace-tomorrow-night-eighties .ace_indent-guide {
+    border-right: 1px solid #272727 !important;
+}
+
+.ace-twilight .ace_indent-guide {
+    border-right: 1px solid #232323 !important;
+}
+
+.ace-vibrant-ink .ace_indent-guide {
+    border-right: 1px solid #1a1a1a !important;
+}
+
+.ace-xcode .ace_indent-guide {
+    border-right: 1px solid #e8e8e8 !important;
+}
